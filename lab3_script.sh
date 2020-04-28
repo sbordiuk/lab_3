@@ -17,7 +17,7 @@ egrep -c "^[1-9]{3}-[1-9]{3}-[1-9]{4}$" regex_practice.txt #3 numbers- 3 numbers
 
 #problem 4 Code:
 #1
-egrep -c "^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" regex_practice.txt #any characters followed by an @, then any characters, then ., then any 2-5 letters
+egrep -c "^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{3})$" regex_practice.txt #any characters followed by an @, then any characters, then ., then any 3 letters
 
 #2
 egrep "^303" regex_practice.txt #any that start with 303
